@@ -27,11 +27,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3            &kp N4    &kp N5  &tog 1                                                                                         &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E             &kp R     &kp T   &none                                                                                          &none      &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D             &kp F     &kp G   &none     &kp LEFT_COMMAND  &kp LS(LA(LC(LGUI)))      &kp LS(LA(LC(LGUI)))  &kp RIGHT_COMMAND  &none      &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C             &kp V     &kp B                               &kp HOME                  &kp PG_UP                                           &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT_CONTROL  &kp LALT          &kp BSPC  &kp DEL           &kp END                   &kp PG_DN             &kp ENTER          &kp SPACE          &kp RALT  &kp RCTRL  &kp LBKT  &kp RBKT  &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3            &kp N4    &kp N5  &tog 1                                                                   &mo 3      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E             &kp R     &kp T   &none                                                                    &none      &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp ESC    &kp A      &kp S     &kp D             &kp F     &kp G   &mo 4     &kp LEFT_COMMAND  &none         &kp LG(F9)  &kp RIGHT_COMMAND  &mo 4      &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C             &kp V     &kp B                               &kp HOME      &kp PG_UP                                 &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT_CONTROL  &kp LALT          &kp BSPC  &kp DEL           &kp END       &kp PG_DN   &kp ENTER          &kp SPACE          &kp RALT  &kp RCTRL  &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -69,8 +69,14 @@
         };
 
         extra1 {
-            display-name = "Red";
-            status = "reserved";
+            display-name = "Red_Vim";
+            bindings = <
+&kp EQUAL  &kp N1     &kp N2                 &kp N3         &kp END   &kp N5  &none                                                  &mo 3      &kp N6    &kp N7       &kp N8        &kp N9     &kp HOME       &kp MINUS
+&kp TAB    &kp Q      &kp W                  &kp E          &kp R     &kp T   &none                                                  &none      &kp Y     &kp PAGE_UP  &kp I         &kp O      &kp BACKSPACE  &kp BSLH
+&kp ESC    &kp A      &kp S                  &kp PAGE_DOWN  &kp F     &kp G   &trans    &kp RGUI  &kp N1        &kp N1     &kp RGUI  &trans     &kp LEFT  &kp DOWN     &kp UP_ARROW  &kp RIGHT  &kp SEMI       &kp DEL
+&kp LSHFT  &kp Z      &kp X                  &kp C          &kp V     &kp B                       &kp HOME      &kp PG_UP                       &kp N     &kp M        &kp COMMA     &kp DOT    &kp FSLH       &kp RSHFT
+&none      &kp GRAVE  &kp LG(LC(LA(LSHFT)))  &kp LCTRL      &kp LALT          &kp BSPC  &kp DEL   &kp END       &kp PG_DN  &kp RET   &kp SPACE            &kp RALT     &kp RCTRL     &kp LBKT   &kp RBKT       &kp N1
+            >;
         };
 
         extra2 {
