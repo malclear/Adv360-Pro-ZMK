@@ -79,13 +79,13 @@
         };
 
         p-vim {
-            display-name = "p-vim, red";
+            display-name = "P-Vim, Red";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2        &kp N3         &kp LG(RIGHT)  &kp N5  &none                                                  &trans     &kp N6    &kp N7       &kp N8        &kp N9     &kp LG(LEFT)   &kp MINUS
-&kp TAB    &kp Q      &kp W         &kp E          &kp R          &kp T   &none                                                  &none      &kp Y     &kp PAGE_UP  &kp I         &kp O      &kp BACKSPACE  &kp BSLH
-&kp ESC    &kp A      &kp S         &kp PAGE_DOWN  &kp F          &kp G   &none     &kp RGUI  &trans        &trans     &kp RGUI  &none      &kp LEFT  &kp DOWN     &kp UP_ARROW  &kp RIGHT  &kp SEMI       &kp DEL
-&kp LSHFT  &kp Z      &kp X         &kp C          &kp V          &kp B                       &kp HOME      &kp PG_UP                       &kp N     &kp M        &kp COMMA     &kp DOT    &kp FSLH       &kp RSHFT
-&none      &kp GRAVE  &kp CAPSLOCK  &kp LCTRL      &kp LALT               &kp BSPC  &kp DEL   &kp END       &kp PG_DN  &kp RET   &kp SPACE            &kp RALT     &kp RCTRL     &kp LBKT   &kp RBKT       &kp N1
+&trans   &trans   &trans   &trans                  &kp LG(RIGHT)   &trans   &trans                                   &trans   &trans   &trans   &trans   &trans   &kp LG(LEFT)  &trans
+&trans     &trans  &trans  &trans  &trans  &trans  &none                                                                               &none   &trans  &kp PAGE_UP  &trans  &trans   &kp BACKSPACE   &trans
+&trans     &trans  &trans  &kp PAGE_DOWN          &trans &trans    &trans   &trans    &trans    &trans        &trans      &trans   &trans &kp LEFT  &kp DOWN     &kp UP_ARROW  &kp RIGHT  &trans      &kp DEL
+&trans     &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
+&trans     &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
             >;
         };
 
