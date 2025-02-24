@@ -81,11 +81,11 @@
         p-vim {
             display-name = "P-Vim, Red";
             bindings = <
-&trans   &trans   &trans   &trans                  &kp LG(RIGHT)   &trans   &trans                                   &trans   &trans   &trans   &trans   &trans   &kp LG(LEFT)  &trans
-&trans     &trans  &trans  &trans  &trans  &trans  &none                                                                               &none   &trans  &kp PAGE_UP  &trans  &trans   &kp BACKSPACE   &trans
-&trans     &trans  &trans  &kp PAGE_DOWN          &trans &trans    &trans   &trans    &trans    &trans        &trans      &trans   &trans &kp LEFT  &kp DOWN     &kp UP_ARROW  &kp RIGHT  &trans      &kp DEL
-&trans     &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans     &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&trans  &trans  &trans  &trans         &kp LG(RIGHT)  &trans  &trans                                      &trans  &trans          &trans          &trans        &trans     &kp LG(LEFT)   &trans
+&trans  &trans  &trans  &trans         &trans         &trans  &none                                       &none   &trans          &kp PAGE_UP     &trans        &trans     &kp BACKSPACE  &trans
+&trans  &trans  &trans  &kp PAGE_DOWN  &trans         &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans         &kp DELETE
+&trans  &trans  &trans  &trans         &trans         &trans                  &trans      &trans                  &trans          &trans          &trans        &trans     &trans         &trans
+&trans  &trans  &trans  &trans         &trans                 &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans     &trans         &trans
             >;
         };
 
